@@ -1,0 +1,57 @@
+.header {
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  font-style: bold;
+  height: 60px;
+}
+.foto {
+  padding: 10px;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  width: 30%;
+  height: 70px;
+}
+hr {
+  opacity: 1;
+  border-top: 5px solid black;
+}
+.box3 {
+  margin: auto;
+  background-color: blueviolet;
+  height: 100px;
+  width: 100%;
+}
+h4 {
+  margin: 10px;
+}
+.akuganteng .row {
+  gap: 40px;
+}
+.akuganteng .col {
+  background-color: gray;
+  height: 100px;
+}
+.label {
+  margin: 20px;
+  font-size: medium;
+}
+.boxinsert {
+  margin: 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+  height: 500px;
+  width: 100%;
+}
+textarea {
+  width: 400px;
+  height: 121px;
+  resize: none;
+}
+.button:is(:hover, :focus) {
+  outline-offset: 3px;
+}
